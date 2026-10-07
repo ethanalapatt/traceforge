@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "id": "email_handle",
+  "input_columns": ["first", "last"],
+  "examples": [
+    {"inputs": ["Ada", "Lovelace"], "output": "a.lovelace"},
+    {"inputs": ["Grace", "Hopper"], "output": "g.hopper"},
+    {"inputs": ["Alan", "Turing"], "output": "a.turing"}
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "analysis_tasks": 30,
+  "epochs": 30,
+  "eval_suites": {
+    "authored": 15,
+    "comp_dev": 15,
+    "dev": 30
+  },
+  "label": {
+    "max_rows_per_task": 80,
+    "neg_search_candidates": 6000,
+    "neg_search_seconds": 2.0
+  },
+  "lambda_grid": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "max_candidates": 25000,
+  "max_nodes": 7,
+  "max_total_seconds": null,
+  "name": "dev",
+  "neural_seeds": 1,
+  "nomemo_max_candidates": 20000,
+  "nomemo_tasks": 12,
+  "quotas": {
+    "comp_dev": 15,
+    "dev": 30,
+    "train": 1500,
+    "val": 300
+  },
+  "seconds": 3.0,
+  "seed": 21,
+  "shift_enabled": true,
+  "size_weights": {
+    "2": 1,
+    "3": 3,
+    "4": 4,
+    "5": 4,
+    "6": 3,
+    "7": 2
+  },
+  "train_max_size": 5,
+  "tune_tasks": 60
+}

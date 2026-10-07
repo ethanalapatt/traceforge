@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "id": "normalize_name",
+  "input_columns": ["full_name"],
+  "examples": [
+    {"inputs": ["  Ada Lovelace  "], "output": "ada.lovelace"},
+    {"inputs": ["Grace  Hopper"], "output": "grace..hopper"},
+    {"inputs": [" Alan Turing"], "output": "alan.turing"},
+    {"inputs": ["MARGARET HAMILTON "], "output": "margaret.hamilton"}
+  ]
+}

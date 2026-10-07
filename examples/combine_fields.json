@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "id": "combine_fields",
+  "input_columns": ["first", "last"],
+  "examples": [
+    {"inputs": ["Ada", "Lovelace"], "output": "Lovelace, Ada"},
+    {"inputs": ["Grace", "Hopper"], "output": "Hopper, Grace"},
+    {"inputs": ["Alan", "Turing"], "output": "Turing, Alan"},
+    {"inputs": ["Edsger", "Dijkstra"], "output": "Dijkstra, Edsger"}
+  ]
+}

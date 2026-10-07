@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "id": "remove_prefix",
+  "input_columns": ["sku"],
+  "examples": [
+    {"inputs": ["SKU-1042"], "output": "1042"},
+    {"inputs": ["SKU-77"], "output": "77"},
+    {"inputs": ["SKU-30518"], "output": "30518"},
+    {"inputs": ["SKU-9"], "output": "9"}
+  ]
+}

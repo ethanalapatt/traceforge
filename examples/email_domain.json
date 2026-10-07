@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "id": "email_domain",
+  "input_columns": ["email"],
+  "examples": [
+    {"inputs": ["ada@analytical.org"], "output": "analytical.org"},
+    {"inputs": ["grace@navy.mil"], "output": "navy.mil"},
+    {"inputs": ["alan@bletchley.co.uk"], "output": "bletchley.co.uk"},
+    {"inputs": ["linus@kernel.org"], "output": "kernel.org"}
+  ]
+}

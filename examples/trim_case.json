@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "id": "trim_case",
+  "input_columns": ["city"],
+  "examples": [
+    {"inputs": ["  new york "], "output": "NEW YORK"},
+    {"inputs": ["Boston"], "output": "BOSTON"},
+    {"inputs": ["  san  Jose"], "output": "SAN  JOSE"},
+    {"inputs": ["austin   "], "output": "AUSTIN"}
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "analysis_tasks": 6,
+  "epochs": 15,
+  "eval_suites": {
+    "dev": 6,
+    "regression": 6
+  },
+  "label": {
+    "max_rows_per_task": 60,
+    "neg_search_candidates": 3000,
+    "neg_search_seconds": 1.0
+  },
+  "lambda_grid": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "max_candidates": 5000,
+  "max_nodes": 5,
+  "max_total_seconds": null,
+  "name": "smoke",
+  "neural_seeds": 1,
+  "nomemo_max_candidates": 3000,
+  "nomemo_tasks": 6,
+  "quotas": {
+    "dev": 6,
+    "train": 96,
+    "val": 36
+  },
+  "seconds": 1.0,
+  "seed": 11,
+  "shift_enabled": false,
+  "size_weights": {
+    "2": 2,
+    "3": 4,
+    "4": 5
+  },
+  "train_max_size": 4,
+  "tune_tasks": 12
+}
